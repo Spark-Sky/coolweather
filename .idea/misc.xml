@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/workspace_android1/CoolWeather/app/src/main/res/drawable-anydpi/ic_back.xml" value="0.38229166666666664" />
-        <entry key="..\:/workspace_android1/CoolWeather/app/src/main/res/layout/choose_area.xml" value="0.1" />
+        <entry key="..\:/workspace_android1/CoolWeather/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/workspace_android1/CoolWeather/app/src/main/res/layout/choose_area.xml" value="0.5" />
         <entry key="..\:/workspace_android1/CoolWeather/app/src/main/res/xml/litepal.xml" value="0.1" />
       </map>
     </option>

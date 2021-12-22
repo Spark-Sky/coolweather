@@ -28,7 +28,7 @@ public class Utility
                     Province province = new Province();
                     province.setProvinceName(provinceObject.getString("name"));
                     province.setProvinceCode(provinceObject.getInt("id"));
-                    province.save();
+                    province.save();//存储
                 }
                 return true;
             } catch (Exception e)
@@ -44,6 +44,7 @@ public class Utility
      */
     public static boolean handleCityResponse(String response, int provinceId)
     {
+
         if (!TextUtils.isEmpty(response))
         {
             try
