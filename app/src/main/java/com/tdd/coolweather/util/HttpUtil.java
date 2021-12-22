@@ -12,7 +12,7 @@ public class HttpUtil {
         Log.i(TAG,address);
         OkHttpClient mClient = new OkHttpClient();
         Request mRequest = new Request.Builder().url(address).build();
-        mClient.newCall(mRequest).enqueue(callback);
+        mClient.newCall(mRequest).enqueue(callback);//添加回调函数
     }
 
 }
